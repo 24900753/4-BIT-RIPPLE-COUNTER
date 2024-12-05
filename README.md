@@ -24,17 +24,31 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 
 **Procedure**
 
-/* write all the steps invloved */
+/*1.Increment count on each positive edge of the clock.
+2.Reset count to zero when it reaches 15.
+3.Generate clock signal (clk).
+4.Instantiate the RippleCounter module. 
+5.Conduct functional testing by displaying the count at each clock cycle for 16 cycles. */
 
 **PROGRAM**
 
+![Screenshot 2024-12-05 124705](https://github.com/user-attachments/assets/6c5cddc8-eca8-49b8-98b8-0b76bc1e92f7)
+
 /* Program for 4 Bit Ripple Counter and verify its truth table in quartus using Verilog programming.
 
- Developed by: RegisterNumber:
+ Developed by:VIGNESH V RegisterNumber:24900753
 */
 
 **RTL LOGIC FOR 4 Bit Ripple Counter**
 
+![Screenshot 2024-12-05 123731](https://github.com/user-attachments/assets/f426279d-c432-4acb-9b3c-2bb639d66a9b)
+
+
 **TIMING DIGRAMS FOR 4 Bit Ripple Counter**
 
+![Screenshot 2024-12-05 123316](https://github.com/user-attachments/assets/4961a7d1-f9c1-48b5-beba-9e80da0c3c91)
+
+
 **RESULTS**
+
+Thus the program executed succesfully.
